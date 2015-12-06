@@ -1,0 +1,28 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   hw8.scala
+
+import scala.collection.mutable.StringBuilder;
+
+public class Person
+{
+
+    public String name()
+    {
+        return name;
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append(getClass().getName()).append("[name=").append(name()).append("]").toString();
+    }
+
+    public Person(String name)
+    {
+        this.name = name;
+        super();
+    }
+
+    private final String name;
+}

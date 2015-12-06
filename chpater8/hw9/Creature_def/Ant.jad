@@ -1,0 +1,20 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   Creature.scala
+
+
+public class Ant extends Creature
+{
+
+    public int range()
+    {
+        return range;
+    }
+
+    public Ant()
+    {
+    }
+
+    private final int range = 2;
+}
